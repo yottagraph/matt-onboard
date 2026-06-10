@@ -1,8 +1,8 @@
 {
-  "name": "aether",
-  "productName": "Aether",
+  "name": "matt-onboard",
+  "productName": "Matt's Onboarding Adventure",
   "version": "2.0.0",
-  "description": "Build Lovelace AI applications in minutes, not days. A production-ready modular framework with event-driven architecture.",
+  "description": "Aether app: Matt's Onboarding Adventure",
   "scripts": {
     "predev": "test -f .env || node init-project.js --local",
     "dev": "nuxt dev",
