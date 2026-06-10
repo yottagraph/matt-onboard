@@ -8,6 +8,7 @@
         }"
     >
         <div class="d-flex align-center app-header-title">
+            <slot name="nav-toggle" />
             <img src="/LL-logo-full-wht.svg" alt="Lovelace" class="header-logo" />
             <span class="app-title-text">{{ appName }}</span>
             <span class="app-version-text">{{ buildString }}</span>
